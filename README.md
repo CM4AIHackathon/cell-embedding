@@ -18,18 +18,11 @@
   - Metadata/column validation before model forward pass.
 
 ---
-
-project/
-├── knowledge-graph-CM4AI.ipynb # GO+SIGNOR+coexpression graph creation
-├── gears-cm4ai.ipynb # Perturbation filtering + model training
-├── cleaned-up.ipynb # Experimental CPU CellFM embedding script
-└── data/
-├── graphs/
-│ ├── cardiac_kg.graphml
-│ ├── cardiac_kg.pt
-│ └── candidate_pert_list.tsv
-└── kolf2/
-└── go_essential_kolf2.csv
+## Project
+- knowledge-graph-CM4AI.ipynb # GO+SIGNOR+coexpression graph creation
+- gears-cm4ai.ipynb # Perturbation filtering + model training
+- cleaned-up.ipynb # Experimental CPU CellFM embedding script
+- dataset used: KOLF2.1J_undifferentiated_untreated_chromatin.h5ad
 
 ## Intended Workflow
 1. **Build Cardiac KG**  
@@ -48,8 +41,6 @@ project/
 NOT VALIDATED YET:
 <img width="612" height="437" alt="image" src="https://github.com/user-attachments/assets/62c994df-dbde-4bd9-9dc4-64d6db025773" />
 <img width="4471" height="3566" alt="image" src="https://github.com/user-attachments/assets/37ea718b-54ff-4918-a779-badad431f697" />
-<img width="4471" height="3566" alt="image" src="https://github.com/user-attachments/assets/a9777845-1e9f-497d-9d51-f69ed004d40a" />
-<img width="4471" height="3566" alt="image" src="https://github.com/user-attachments/assets/51803950-d103-4f89-9958-aff0ec34f034" />
 <img width="4454" height="2965" alt="image" src="https://github.com/user-attachments/assets/be4c9234-bef9-4dbe-a823-e365389a9f27" />
 <img width="812" height="520" alt="image" src="https://github.com/user-attachments/assets/53e240a6-4d55-4d8a-96b4-37af655eb46f" />
 
