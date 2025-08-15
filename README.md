@@ -22,7 +22,7 @@
 - knowledge-graph-CM4AI.ipynb # GO+SIGNOR+coexpression graph creation
 - gears-cm4ai.ipynb # Perturbation filtering + model training
 - cleaned-up.ipynb # Experimental CPU CellFM embedding script
-- dataset used: KOLF2.1J_undifferentiated_untreated_chromatin.h5ad
+- dataset used: KOLF2.1J_undifferentiated_untreated_chromatin.h5ad -- sourced from CM4AI 2024 release
 
 ## Intended Workflow
 1. **Build Cardiac KG**  
